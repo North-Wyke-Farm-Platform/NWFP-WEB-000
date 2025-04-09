@@ -9,6 +9,7 @@
     </x-slot>
     <section class="bg-orange-500 text-white font-semibold p-10">
         DRAFT: I used the facilites page as placeholder for Work_with_us  - a page about collaboration
+
     </section>
     <div class="sticky top-0 border-b-4 border-nw-blue-700">
         <h2 class="h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Download Request Forms</h2>

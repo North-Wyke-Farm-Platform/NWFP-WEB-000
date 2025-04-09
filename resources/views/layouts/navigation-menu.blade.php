@@ -80,9 +80,6 @@
                         {{ __('About') }}
                     </x-slot>
                     <x-slot name="content">
-                        <x-dropdown-link href="{{ route('content.with.page', ['page' => 'index']) }}">
-                            {{ __('Content') }}
-                        </x-dropdown-link>
                         <x-dropdown-link href="{{ route('content.with.page', ['page' => 'map']) }}">
                             {{ __('Map of the platform') }}
                         </x-dropdown-link>
@@ -97,7 +94,7 @@
                         </x-dropdown-link>
                     </x-slot>
                 </x-dropdown2>
-                {{-- ---------  Search that has not been implemented yet !  ---------
+                {{-- ---------  Search that has not been implemented yet ! ---------
                 <x-dropdown2>
                     <x-slot name="trigger">
                         <span
@@ -210,13 +207,9 @@
     <div class="hidden sm:hidden" :class="{ 'block': open, 'hidden': !open }">{{-- Responsive Navigation Menu --}}
         <div class="space-y-1 pb-3 pt-2">
 
-            <x-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                {{ __('Dashboard') }}
-            </x-responsive-nav-link>
 
-            <x-responsive-nav-link href="{{ route('content.with.page', ['page' => 'index']) }}" :active="request()->routeIs('content')">
-                {{ __('Area 2') }}
-            </x-responsive-nav-link>
+
+
             <x-responsive-nav-link href="{{ route('content.with.page', ['page' => 'index']) }}" :active="request()->routeIs('content')">
                 {{ __('Area 3') }}
             </x-responsive-nav-link>
