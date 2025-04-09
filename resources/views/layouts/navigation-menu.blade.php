@@ -209,7 +209,6 @@
 
 
 
-
             <x-responsive-nav-link href="{{ route('content.with.page', ['page' => 'index']) }}" :active="request()->routeIs('content')">
                 {{ __('Area 3') }}
             </x-responsive-nav-link>
