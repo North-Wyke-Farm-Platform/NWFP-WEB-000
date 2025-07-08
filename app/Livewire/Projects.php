@@ -107,9 +107,9 @@ class Projects extends Component implements HasForms
 
 //         ]);
 
-return view (
-            $this -> view, $this
-        -> data )
-        ->layout('layouts.guest');
+        return view (
+                $this -> view, $this
+            -> data )
+            ->layout('layouts.guest');
     }
 }

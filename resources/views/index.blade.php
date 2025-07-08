@@ -12,7 +12,8 @@
             style="width: 100%; height: 600px;" frameborder="0" height="14" scrolling="no" width="47"></iframe>
         </p>
  --}}
+@livewire('news', ['latest' => "YES"])
 
- <livewire:pages />
+<livewire:pages />
 
 </x-guest-layout>
