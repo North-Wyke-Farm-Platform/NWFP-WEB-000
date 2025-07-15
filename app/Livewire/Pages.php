@@ -21,10 +21,12 @@ class Pages extends Component
         $this -> pages = Page::where('is_focus', TRUE)
         ->where('is_pinned', FALSE)
         ->where('status',  'Published')
+        ->orderBy('rank', 'asc')
         ->get();
 
         $this -> pinned = Page::where('is_pinned', TRUE)
         ->where('status',  'Published')
+        ->orderBy('rank', 'asc')
         ->get();
 
 

@@ -5,7 +5,7 @@ namespace App\Filament\Resources;
 use App\Filament\Resources\PageResource\Pages;
 use App\Filament\Resources\PageResource\RelationManagers;
 use App\Models\Page;
-
+use BcMath\Number;
 use Filament\Forms;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
@@ -64,6 +64,7 @@ class PageResource extends Resource
                 ->relationship('tags', 'name')
                 ->preload()
                 ->multiple(),
+                TextInput::make('rank')->numeric()->default(0)->label('Rank (for page display priority)'),
                 Toggle::make('is_focus')->label('On home page'),
                 Toggle::make('is_pinned')->label('On top'),
                 // the fileupload will not work if the disk is on the public directory. When the storage place is available, we can revisit that!
@@ -77,6 +78,8 @@ class PageResource extends Resource
         return $table
                 ->columns([
                     TextColumn::make('title')->wrap(80)->sortable(),
+                    TextColumn::make('rank')->numeric()->sortable()
+                        ->label('Rank (for display priority)'),
                     IconColumn::make('status')
                         ->icon(fn (string $state): string => match ($state) {
                         'Draft' => 'heroicon-o-pencil',
