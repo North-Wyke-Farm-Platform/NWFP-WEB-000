@@ -1,7 +1,7 @@
 <div class="bg-nw-blue-900 text-nw-blue-50">
     <div class="flex justify-center px-8 py-2 print:hidden">
         <div class="overflow-visible px-20 text-left text-sm">
-            <h2 class="font-mono text-xl font-semibold">Our sponsors</h2>
+            <h2 class="font-mono text-xl font-semibold">Our Sponsors</h2>
             <div class="rounded-full bg-white">
                 <a href="https://www.rothamsted.ac.uk">
                     <img class="-p-1 block h-12 object-fill" src="/logos/rothamsted-logo.png" />
@@ -18,7 +18,7 @@
         <div class="overflow-visible px-20 text-left text-sm">
             <h2 class="font-mono text-xl font-semibold">Official Links</h2>
             <p><a class="hover:font-semibold hover:text-yellow-300 hover:shadow-lg active:text-orange-600 active:shadow-lg"
-                    href="/documents/NWFP Portal Data Terms of Use.pdf">Legal Notice - Data Portal</a></p>
+                    href="/documents/NWFP Portal Data Terms of Use v1.pdf">Legal Notice - Data Portal</a></p>
             <p><a class="hover:font-semibold hover:text-yellow-300 hover:shadow-lg active:text-orange-600 active:shadow-lg"
                     href="/documents/NWFP API Data Licence Statement v1.pdf">Legal Notice - API</a></p>
             <p><a class="hover:font-semibold hover:text-yellow-300 hover:shadow-lg active:text-orange-600 active:shadow-lg"
@@ -29,7 +29,7 @@
         <div class="overflow-visible px-20 text-left text-sm">
             <h2 class="font-mono text-xl font-semibold">Connect With Us</h2>
             <p><a class="hover:font-semibold hover:text-yellow-300 hover:shadow-lg active:text-orange-600 active:shadow-lg"
-                    href="/contact">Contact us</a></p>
+                    href="{{ route('content.with.page', ['page' => 'contacts']) }}">Contact us</a></p>
             <p><a class="hover:font-semibold hover:text-yellow-300 hover:shadow-lg active:text-orange-600 active:shadow-lg"
                     href="{{ route('content.with.page', ['page' => 'news']) }}">News</a></p>
             <p class="inline-block align middle"><a target="_blank"  class="inline-block align middle hover:font-semibold hover:text-yellow-300 hover:shadow-lg active:text-orange-600 active:shadow-lg"
