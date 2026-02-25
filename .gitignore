@@ -7,10 +7,11 @@
 /storage/*.key
 /vendor
 .env
-.env.curation
-.env.production
 .env.burrows
+.env.curation
+.env.nw-farmplatform
 .env.orchard
+.env.production
 .phpactor.json
 .phpunit.result.cache
 Homestead.json

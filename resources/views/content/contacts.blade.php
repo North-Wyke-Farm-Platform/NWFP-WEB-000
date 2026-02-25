@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </a>
-            
+
         </div>
     </div>
 
@@ -106,14 +106,16 @@
         <div>
 
             <h3 class="mt-4 p-3 text-lg font-medium text-nw-blue-700 underline underline-offset-4">Soils</h3>
-            <!-- ------------------------ One People Card -------------------   -->
+            <!-- ------------------------ One People Card Vacant Position-------------------   -->
             <a onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/martin-blackwell">
                 <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
-                        <img class="h-12 w-12 rounded-full p-1 hover:ring-2 hover:ring-nw-blue-700"
-                        src="/profile-photos/martin-blackwell.jpg">
+                        <div
+                    class="relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-gray-100 dark:bg-gray-600">
+                    <span class="font-medium text-gray-600 dark:text-gray-300">VP</span>
+                </div>
                     <div class="font-medium dark:text-white">
                         <div>
-                            Martin Blackwell
+                            Vacant Position
                         </div>
                         <div class="text-sm text-gray-500 dark:text-gray-400">
                             Soil Scientist
@@ -121,14 +123,18 @@
                     </div>
                 </div>
             </a>
+
+
             <!-- ------------------------ One People Card -------------------   -->
             <a onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/andrew-neal">
                 <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
-                    <img class="h-12 w-12 rounded-full p-1 hover:ring-2 hover:ring-nw-blue-700"
-                    src="/profile-photos/andrew-neal.jpg">
+                    <div
+                    class="relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-gray-100 dark:bg-gray-600">
+                    <span class="font-medium text-gray-600 dark:text-gray-300">VP</span>
+                </div>
                     <div class="font-medium dark:text-white">
                         <div>
-                        Andy Neal
+                        Vacant Position
                         </div>
                         <div class="text-sm text-gray-500 dark:text-gray-400">
                         Soil Scientist
@@ -192,7 +198,7 @@
                     </div>
                 </div>
             </a>
-        
+
         <!-- ------------------------ One People Card With Initials -------------------   -->
             <div class="flex items-center gap-4 p-3">
                 <div
@@ -288,13 +294,15 @@
             <a onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/jane-hawkins">
 
                 <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
-                    <img class="h-12 w-12 rounded-full p-1 hover:ring-2 hover:ring-nw-blue-700"
-                        src="/profile-photos/jane-hawkins.jpg">
+                    <div
+                    class="relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-gray-100 dark:bg-gray-600">
+                    <span class="font-medium text-gray-600 dark:text-gray-300">VP</span>
+                </div>
                     <div class="font-medium dark:text-white">
-                        <div>Jane Hawkins
+                        <div>Vacant Position
                         </div>
                         <div class="text-sm text-gray-500 dark:text-gray-400">
-                            <p>Biogeochemist &amp; Data Specialist</>
+                            <p>Data Specialist</>
                         </div>
                     </div>
                 </div>
@@ -314,7 +322,7 @@
             </div>
 
         </a>
-            
+
         </div>
 
         <div>
@@ -340,11 +348,11 @@
             <div class="flex items-center gap-4 p-3">
                 <div
                     class="relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-gray-100 dark:bg-gray-600">
-                    <span class="font-medium text-gray-600 dark:text-gray-300">N</span>
+                    <span class="font-medium text-gray-600 dark:text-gray-300">AS</span>
                 </div>
                 <div class="font-medium dark:text-white">
                     <div>
-                        Hazem Nureldin
+                        Alberto Stella
                     </div>
                     <div class="text-sm text-gray-500 dark:text-gray-400">
                         Software Engineer
@@ -379,11 +387,11 @@
         <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
             <div
                 class="relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-gray-100 dark:bg-gray-600">
-                <span class="font-medium text-gray-600 dark:text-gray-300">MR</span>
+                <span class="font-medium text-gray-600 dark:text-gray-300">VP</span>
             </div>
             <div class="font-medium dark:text-white">
                 <div>
-                    Maria Resendez
+                    Vacant position
                 </div>
                 <div class="text-sm text-gray-500 dark:text-gray-400">
                     Science Technician
