@@ -274,40 +274,23 @@
 
         <div>
             <h3 class="mt-4 p-3 text-lg font-medium text-nw-blue-700 underline underline-offset-4">Data</h3>
-            <!-- ------------------------ One People Card -------------------   -->
+            <!-- ------------------------ One People Card TD -------------------   -->
+            <a onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/tegan-darch">
 
-            <a onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/hadewij-sint">
                 <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
                     <img class="h-12 w-12 rounded-full p-1 hover:ring-2 hover:ring-nw-blue-700"
-                        src="/profile-photos/hadewij-sint.jpg">
+                        src="/profile-photos/tegan-darch.jpg">
                     <div class="font-medium dark:text-white">
-                        <div>Hadewij Sint
+                        <div>Tegan Darch
                         </div>
                         <div class="text-sm text-gray-500 dark:text-gray-400">
-                            <p>GIS &amp; Data Specialist</p>
+                            Research Data Manager
                         </div>
                     </div>
                 </div>
-            </a>
-            <!-- ------------------------ One People Card -------------------   -->
 
-            <a onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/jane-hawkins">
-
-                <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
-                    <div
-                    class="relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-gray-100 dark:bg-gray-600">
-                    <span class="font-medium text-gray-600 dark:text-gray-300">VP</span>
-                </div>
-                    <div class="font-medium dark:text-white">
-                        <div>Vacant Position
-                        </div>
-                        <div class="text-sm text-gray-500 dark:text-gray-400">
-                            <p>Data Specialist</>
-                        </div>
-                    </div>
-                </div>
             </a>
-            <!-- ------------------------ One People Card -------------------   -->
+            <!-- ------------------------ One People Card LO-------------------   -->
         <a onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/louise-olde">
             <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
                 <img class="h-12 w-12 rounded-full p-1 hover:ring-2 hover:ring-nw-blue-700"
@@ -323,25 +306,61 @@
 
         </a>
 
+            <!-- ------------------------ One People Card HS-------------------   -->
+
+            <a onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/hadewij-sint">
+                <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
+                    <img class="h-12 w-12 rounded-full p-1 hover:ring-2 hover:ring-nw-blue-700"
+                        src="/profile-photos/hadewij-sint.jpg">
+                    <div class="font-medium dark:text-white">
+                        <div>Hadewij Sint
+                        </div>
+                        <div class="text-sm text-gray-500 dark:text-gray-400">
+                            <p>GIS &amp; Data Specialist</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+
+
         </div>
 
         <div>
             <h3 class="mt-4 p-3 text-lg font-medium text-nw-blue-700 underline underline-offset-4">Data systems</h3>
-            <!-- ------------------------ One People Card -------------------   -->
+
+
+             <!-- ------------------------ One People Card -------------------   -->
             <a onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/tegan-darch">
 
                 <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
                     <img class="h-12 w-12 rounded-full p-1 hover:ring-2 hover:ring-nw-blue-700"
-                        src="/profile-photos/tegan-darch.jpg">
+                        src="/profile-photos/nathalie-castells.jpg">
                     <div class="font-medium dark:text-white">
-                        <div>Tegan Darch
+                        <div>Nathalie Castells
                         </div>
                         <div class="text-sm text-gray-500 dark:text-gray-400">
-                            Research Data Manager
+                            Software Engineer
                         </div>
                     </div>
                 </div>
 
+            </a>
+          <!-- ------------------------ One People Card RO-------------------   -->
+
+            <a onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/richard-ostler">
+
+                <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
+                    <img class="h-12 w-12 rounded-full p-1 hover:ring-2 hover:ring-nw-blue-700"
+                        src="/profile-photos/richard-ostler.jpg">
+                    <div class="font-medium dark:text-white">
+                        <div>Richard Ostler
+                        </div>
+                        <div class="text-sm text-gray-500 dark:text-gray-400">
+                            <p>Agri-Informatician &amp;</p> <p>Data Specialist</>
+                        </div>
+                    </div>
+                </div>
             </a>
             <!-- ------------------------ One People Card With Initials -------------------   -->
 
@@ -360,22 +379,8 @@
                 </div>
             </div>
 
-          <!-- ------------------------ One People Card -------------------   -->
 
-            <a onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/richard-ostler">
 
-                <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
-                    <img class="h-12 w-12 rounded-full p-1 hover:ring-2 hover:ring-nw-blue-700"
-                        src="/profile-photos/richard-ostler.jpg">
-                    <div class="font-medium dark:text-white">
-                        <div>Richard Ostler
-                        </div>
-                        <div class="text-sm text-gray-500 dark:text-gray-400">
-                            <p>Agri-Informatician &amp;</p> <p>Data Specialist</>
-                        </div>
-                    </div>
-                </div>
-            </a>
         </div>
 
     </div>
