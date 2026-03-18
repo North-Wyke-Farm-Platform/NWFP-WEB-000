@@ -267,8 +267,10 @@
                 onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/tegan-darch">
 
                 <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
-                    <img class="h-12 w-12 rounded-full p-1 hover:ring-2 hover:ring-nw-blue-700"
-                        src="/profile-photos/nathalie-castells.jpg">
+                    <div
+                    class="relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-gray-100 dark:bg-gray-600">
+                    <span class="font-medium text-gray-600 dark:text-gray-300">NC</span>
+                </div>
                     <div class="font-medium dark:text-white">
                         <div>Nathalie Castells
                         </div>
