@@ -22,9 +22,9 @@
             please contact Paul Harris (<a
                 class="text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                 href="mailto:paul.harris@rothamsted.ac.uk)">paul.harris@rothamsted.ac.uk)</a>
-            or Jane Hawkins
+            or Louise Olde
             (<a class="text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
-                href="mailto:jane.hawkins@rothamsted.ac.uk">jane.hawkins@rothamsted.ac.uk</a>).
+                href="mailto:louise.olde@rothamsted.ac.uk">louise.olde@rothamsted.ac.uk</a>).
         </p>
     </div>
     <h2 class="py-auto mt-4 h-8 bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Current Studies</h2>

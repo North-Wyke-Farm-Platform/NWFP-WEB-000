@@ -82,6 +82,21 @@
                     </div>
                 </div>
             </a>
+           <!-- ------------------------ One People Card With Initials -------------------   -->
+            <div class="flex items-center gap-4 p-3">
+                <div
+                    class="relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-gray-100 dark:bg-gray-600">
+                    <span class="font-medium text-gray-600 dark:text-gray-300">MS</span>
+                </div>
+                <div class="font-medium dark:text-white">
+                    <div>
+                        Matthew Smallwood
+                    </div>
+                    <div class="text-sm text-gray-500 dark:text-gray-400">
+                        Experimental Farm Manager
+                    </div>
+                </div>
+            </div>
         </div>
         <div>
             <h3 class="mt-4 p-3 text-lg font-medium text-nw-blue-700 underline underline-offset-4">Soils</h3>
@@ -89,16 +104,15 @@
             <a
                 onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="https://www.rothamsted.ac.uk/people/martin-blackwell">
                 <div class="flex items-center gap-4 p-3 hover:bg-nw-blue-50">
-                    <div
-                        class="relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-gray-100 dark:bg-gray-600">
-                        <span class="font-medium text-gray-600 dark:text-gray-300">VP</span>
-                    </div>
+                    <img
+                        class="h-12 w-12 rounded-full p-1 hover:ring-2 hover:ring-nw-blue-700"
+                        src="/profile-photos/alex-kelly.jpg">
                     <div class="font-medium dark:text-white">
                         <div>
-                            Vacant Position
+                            Alex Kelly
                         </div>
                         <div class="text-sm text-gray-500 dark:text-gray-400">
-                            Soil Scientist
+                            Agricultural Research Technician
                         </div>
                     </div>
                 </div>
