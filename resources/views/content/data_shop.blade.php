@@ -30,7 +30,7 @@
                 <br>
                 <p> A collection of non-core and worked-up datasets are available from the Rothamsted Data Repository powered by CKAN.
                     The site has a useful search feature to search for various topics.<br><br>
-                    Note that the Publications page also contains sources of data under the Dataset category.</p>
+                    Note that the <a href="{{ route('publications') }}" class="text-blue-500 hover:underline">Publications page</a> also contains sources of data under the Dataset category.</p>
             </div>
         </div>
         <div class="grid grid-cols-3 gap-4 rounded-top ">
@@ -64,8 +64,8 @@
             </x-li-dot>
             <ul class="space-y-3">
                 <x-li-arrow>
-                    R.J. Orr, P.J. Murray, C.J. Eyles, M.S.A. Blackwell, L.M. Cardenas, A.L. Collins, 
-                    J.A.J. Dungait, K.W.T.Goulding, B.A. Griffith, S.J. Gurr, P. Harris, J.M.B. Hawkins, T.H. Misselbrook, 
+                    R.J. Orr, P.J. Murray, C.J. Eyles, M.S.A. Blackwell, L.M. Cardenas, A.L. Collins,
+                    J.A.J. Dungait, K.W.T.Goulding, B.A. Griffith, S.J. Gurr, P. Harris, J.M.B. Hawkins, T.H. Misselbrook,
                     C. Rawlings, A. Shepherd, H. Sint, T. Takahashi, K.N. Tozer, A.P. Whitmore, L. Wu and M.R.F. Lee. (2016). The North Wyke
                     Farm Platform: effect of temperate grassland farming systems on soil moisture contents, runoff and
                     associated water quality dynamics. European Journal of Soil Science, 67, 374-385.DOI: <a
@@ -74,7 +74,7 @@
 
                 </x-li-arrow>
                 <x-li-arrow>
-                    T. Takahashi, P. Harris, M. S. A. Blackwell, L. M. Cardenas, A. L. Collins, J. A. J. Dungait, 
+                    T. Takahashi, P. Harris, M. S. A. Blackwell, L. M. Cardenas, A. L. Collins, J. A. J. Dungait,
                     J. M. B. Hawkins, T. H. Misselbrook, G. A. McAuliffe, J. N. McFadzean, P. J. Murray, R. J. Orr, M. J.
                     Rivero, L. Wu, M. R. F. Lee, 2018. Roles of instrumented farm-scale trials in trade-off assessments of
                     pasture-based ruminant production systems. Animal, 1766-1776.DOI: <a
@@ -88,10 +88,10 @@
                     URL:  <a class="text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                     href="https://nwfp.rothamsted.ac.uk/">https://nwfp.rothamsted.ac.uk/</a></p>
             </x-li-dot>
-           
+
             <x-li-dot class="bg-nw-blue-500">
-                <p class="font-semibold">3. For the datasets used, please cite the latest version of the relevant User Guide PDF document(s), 
-                    that describe the establishment and development of the NWFP, and the various datasets produced in detail. 
+                <p class="font-semibold">3. For the datasets used, please cite the latest version of the relevant User Guide PDF document(s),
+                    that describe the establishment and development of the NWFP, and the various datasets produced in detail.
                     These are listed on the <a class="px-0 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                     href="{{ route('nw-guides') }}"><span class="font-semibold">Data User Guides</span></a> webpage.<br>
                     Note that the User Guide entitled "NWFP_UG_Design_Develop.pdf" should be cited irrespective of the dataset used.
@@ -103,7 +103,7 @@
             </x-li-dot>
             <div class="border-2 border-red-700 bg-red-50 p-2">
                 <p>The North Wyke Farm Platform is a National Bioscience Research Infrastructure (NBRI) supported by the Biotechnology and
-                    Biological Sciences Research Council (BBSRC) by grants BB/J004308/1, BBS/E/C/000J0100 
+                    Biological Sciences Research Council (BBSRC) by grants BB/J004308/1, BBS/E/C/000J0100
                     and currently supported by grant BBS/E/RH/23NB0008 (2023-28).</p>
                 <p>We acknowledge the interests of the Ecological Continuity Trust (ECT), whose national network of LTEs
                     includes the experiment on which this research was conducted.</p>

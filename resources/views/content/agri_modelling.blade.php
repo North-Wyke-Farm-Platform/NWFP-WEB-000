@@ -185,6 +185,17 @@
         <p>Reading the explanatory guides are a very important step, and not to be bypassed but the
             explanatory information may be absorbed and understood better when you have familiarised
             yourself with the datasets available.</p>
+            <p>Please contact
+                <a
+                    onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="mailto:nw.farmplatform@rothamsted.ac.uk">
+                    <u>nw.farmplatform@rothamsted.ac.uk</u>
+                </a> or <a
+                    onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="mailto:paul.harris@rothamsted.ac.uk">
+                    <u>paul.harris@rothamsted.ac.uk</u>
+                </a>
+                for all NWFP data queries.
+
+            </p>
 
     </div>
     <br>

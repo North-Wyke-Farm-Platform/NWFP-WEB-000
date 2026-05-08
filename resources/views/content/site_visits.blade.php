@@ -27,12 +27,8 @@
                         <a href="https://www.rothamsted.ac.uk/people/melanie-wright" style="color: blue; text-decoration: underline",
                         onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;">Melanie
                         Wright
-                        </a> 
-                            or 
-                        <a href="https://www.rothamsted.ac.uk/people/jane-hawkins" style="font-semibold; color: blue; text-decoration: underline",
-                        onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;">Jane
-                        Hawkins
-                        </a>.
+                        </a>
+
 
                     </span>
                 </p>
