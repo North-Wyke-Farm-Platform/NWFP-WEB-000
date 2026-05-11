@@ -2,7 +2,8 @@
     "_readme": [
         "This file locks the dependencies of your project to a known state",
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
+        "This file is @generated automatically",
+        "this is for version 8.3 of PHP"
     ],
     "content-hash": "b48171d657733d33c4660ca489dcb1b2",
     "packages": [

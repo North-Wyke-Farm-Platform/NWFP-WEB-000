@@ -74,9 +74,9 @@
                         <x-dropdown-link href="{{ route('content.with.page', ['page' => 'site_visits']) }}">
                             {{ __('Visit us') }}
                         </x-dropdown-link>
-                        <x-dropdown-link href="{{ route('content.with.page', ['page' => 'hackathon']) }}">
+{{--                         <x-dropdown-link href="{{ route('content.with.page', ['page' => 'hackathon']) }}">
                             {{ __('Rothamsted Data Hackathon') }}
-                        </x-dropdown-link>
+                        </x-dropdown-link> --}}
 
 
                     </x-slot>
@@ -89,7 +89,7 @@
                         <x-dropdown-link href="{{ route('content.with.page', ['page' => 'news']) }}">
                             {{ __('News & Press Releases') }}
                         </x-dropdown-link>
-                       
+
                         <x-dropdown-link href="https://bsky.app/profile/thefarmplatform.bsky.social">
                         <img src="{{ asset('logos/bluesky-logo-blue.svg') }}" alt="blueskylogo" class="h-4 inline-block align-middle">
                             {{ __('Follow us on Bluesky') }}
