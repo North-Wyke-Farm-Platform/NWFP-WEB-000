@@ -128,7 +128,7 @@
                 <x-dropdown2>
                     <x-slot name="trigger">
                         <span
-                            class="dark:border-neutral-400 flex items-center whitespace-nowrap px-3 py-[0.25rem] text-nw-blue-700 dark:text-white [&>svg]:h-5 [&>svg]:w-5"
+                            class="dark:border-neutral-400 flex items-center whitespace-nowrap px-3 py-1 text-nw-blue-700 dark:text-white [&>svg]:h-5 [&>svg]:w-5"
                             id="button-addon2">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                                 stroke="currentColor">
@@ -142,7 +142,7 @@
                             <x-input class="ml-2 mt-1 block w-full" id="examplesearch" type="search"
                                 placeholder="Search" />
                             <span
-                                class="dark:border-neutral-400 flex items-center whitespace-nowrap px-3 py-[0.25rem] text-nw-blue-700 dark:text-white [&>svg]:h-5 [&>svg]:w-5"
+                                class="dark:border-neutral-400 flex items-center whitespace-nowrap px-3 py-1 text-nw-blue-700 dark:text-white [&>svg]:h-5 [&>svg]:w-5"
                                 id="button-addon2">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="2" stroke="currentColor">
@@ -160,14 +160,14 @@
                             <x-slot name="trigger">
                                 @if (Laravel\Jetstream\Jetstream::managesProfilePhotos())
                                     <button
-                                        class="flex rounded-full border-2 border-transparent text-sm transition focus:border-nw-blue-200 focus:outline-none">
+                                        class="flex rounded-full border-2 border-transparent text-sm transition focus:border-nw-blue-200 focus:outline-hidden">
                                         <img class="aspect-square h-16 rounded-full border-4 border-nw-blue-600 object-scale-down p-1"
                                             src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}" />
                                     </button>
                                 @else
                                     <span class="inline-flex rounded-md">
                                         <button
-                                            class="inline-flex items-center rounded-md border border-transparent bg-white px-3 py-2 text-sm font-medium leading-4 text-gray-500 transition duration-150 ease-in-out hover:text-gray-700 focus:bg-gray-50 focus:outline-none active:bg-gray-50"
+                                            class="inline-flex items-center rounded-md border border-transparent bg-white px-3 py-2 text-sm font-medium leading-4 text-gray-500 transition duration-150 ease-in-out hover:text-gray-700 focus:bg-gray-50 focus:outline-hidden active:bg-gray-50"
                                             type="button">
                                             {{ Auth::user()->name }}
 
@@ -219,7 +219,7 @@
             </div>
             <div class="-me-2 flex items-center sm:hidden">{{--  Hamberger Menu Don't gorget to update --}}
                 <button
-                    class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 transition duration-150 ease-in-out hover:bg-gray-100 hover:text-gray-500 focus:bg-gray-100 focus:text-gray-500 focus:outline-none"
+                    class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 transition duration-150 ease-in-out hover:bg-gray-100 hover:text-gray-500 focus:bg-gray-100 focus:text-gray-500 focus:outline-hidden"
                     @click="open = ! open">
                     <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                         <path class="inline-flex" :class="{ 'hidden': open, 'inline-flex': !open }"

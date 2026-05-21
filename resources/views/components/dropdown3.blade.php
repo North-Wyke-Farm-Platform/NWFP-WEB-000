@@ -3,7 +3,7 @@
 @php
     switch ($align) {
         case 'left':
-            $alignmentClasses = 'ltr:origin-top-left rtl:origin-top-right start-0';
+            $alignmentClasses = 'ltr:origin-top-left rtl:origin-top-right inset-s-0';
             break;
         case 'top':
             $alignmentClasses = 'origin-top';
@@ -14,7 +14,7 @@
             break;
         case 'right':
         default:
-            $alignmentClasses = 'ltr:origin-top-right rtl:origin-top-left end-0';
+            $alignmentClasses = 'ltr:origin-top-right rtl:origin-top-left inset-e-0';
             break;
     }
 
@@ -27,10 +27,10 @@
             break;
     }
 
-    $classes = 'inline-flex items-center px-1 pt-1 border-1 border-transparent text-lg font-medium   leading-5 text-nw-blue-600 hover:bg-nw-blue-900 hover:text-nw-blue-50  transition duration-150 ease-in-out';
+    $classes = 'inline-flex items-center px-1 pt-1 border border-transparent text-lg font-medium   leading-5 text-nw-blue-600 hover:bg-nw-blue-900 hover:text-nw-blue-50  transition duration-150 ease-in-out';
 @endphp
 
-<div class="relative inline-flex items-center px-1 pt-1 border-1 border-transparent text-lg font-medium   leading-5 text-nw-blue-600 hover:bg-nw-blue-900 hover:text-nw-blue-50  transition duration-150 ease-in-out " x-data="{ open: false }" @click.away="open = false" @close.stop="open = false">
+<div class="relative inline-flex items-center px-1 pt-1 border border-transparent text-lg font-medium   leading-5 text-nw-blue-600 hover:bg-nw-blue-900 hover:text-nw-blue-50  transition duration-150 ease-in-out " x-data="{ open: false }" @click.away="open = false" @close.stop="open = false">
     <div @click="open = ! open">
             {{ $trigger }}
     </div>

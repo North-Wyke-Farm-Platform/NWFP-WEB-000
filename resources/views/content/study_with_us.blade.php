@@ -9,7 +9,7 @@
         <section class="body-font text-gray-600">
             <div class="container mx-auto flex flex-col items-center px-10 py-10 md:flex-row">
                 <div
-                    class="mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24">
+                    class="mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:grow lg:pr-24">
 
                     <p class="mb-8 leading-relaxed" style = "text-align:justify">
                         The North Wyke Farm Platform is an exceptional resource for research student projects.
@@ -26,7 +26,7 @@
                     </x-button-link>
                 </div>
                 <div class="w-5/6 md:w-1/2 lg:w-full lg:max-w-lg">
-                    <img class="rounded object-cover object-center" src="/images/data2.png" alt="Data imagery">
+                    <img class="rounded-sm object-cover object-center" src="/images/data2.png" alt="Data imagery">
                 </div>
             </div>
         </section>
@@ -92,7 +92,7 @@
                 <div class="flex justify-center">
                     <div class="px-2">
 
-                        <div class="max-w-sm overflow-hidden rounded shadow-lg">
+                        <div class="max-w-sm overflow-hidden rounded-sm shadow-lg">
                             <video width="400" height="300" controls muted>
                                 <source src="/videos/NorthWyke_V1.mp4" type="video/mp4">
 
@@ -117,7 +117,7 @@ class="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-se
                     </div>
                     <div class="px-2">
 
-                        <div class="max-w-sm overflow-hidden rounded shadow-lg">
+                        <div class="max-w-sm overflow-hidden rounded-sm shadow-lg">
                             <video width="400" height="300" controls muted>
                                 <source src="/videos/Post_Grad_research_overview.mp4" type="video/mp4">
 

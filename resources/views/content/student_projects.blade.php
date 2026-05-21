@@ -9,7 +9,7 @@
         <section class="body-font text-gray-600">
             <div class="container mx-auto flex flex-col items-center px-10 py-10 md:flex-row">
                 <div
-                    class="mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24">
+                    class="mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:grow lg:pr-24">
                     <h1 class="title-font mb-6 text-3xl font-medium text-gray-900 sm:text-4xl">
                         Introduction
                         <br class="hidden lg:inline-block">
@@ -28,7 +28,7 @@
                         </x-button-link>
                 </div>
                 <div class="w-5/6 md:w-1/2 lg:w-full lg:max-w-lg">
-                    <img class="rounded object-cover object-center" src="/images/data2.png" alt="Data imagery">
+                    <img class="rounded-sm object-cover object-center" src="/images/data2.png" alt="Data imagery">
                 </div>
             </div>
         </section>

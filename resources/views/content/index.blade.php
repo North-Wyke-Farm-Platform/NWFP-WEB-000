@@ -6,7 +6,7 @@
         </h2>
     </x-slot>
 
-    <p class="m-5 rounded border border-red-700 bg-orange-400 p-3 text-lg font-semibold text-white"> A working document -
+    <p class="m-5 rounded-sm border border-red-700 bg-orange-400 p-3 text-lg font-semibold text-white"> A working document -
         the link to the old page and to the new pages. progress</p>
     <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Done</h2>
     <ul>
