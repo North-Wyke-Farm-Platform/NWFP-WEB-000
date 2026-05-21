@@ -45,11 +45,11 @@
         </div>
     </div>
 
-    <div class="w-100 container mx-auto grid grid-cols-3 gap-4 p-5 ">
+    <div class="grid grid-cols-3 gap-4 space-y-3 p-4">
         @foreach ($news as $item)
 
             <!-- card -->
-            <div class="group w-100 mx-2 mt-4 rounded-lg  bg-gray-200 hover:bg-gray-100 shadow-xl md:flex-row" v-for="card in cards">
+            <div class="rounded-lg  bg-gray-200 hover:bg-gray-100 shadow-xl md:flex-row" v-for="card in cards">
                 <!-- media -->
 
                     <img class="w-full h-48 object-cover overflow-hidden rounded-lg transition-transform transform scale-100" src="{{ $item -> image }}" />
@@ -81,7 +81,8 @@
                     @endif
 
                 </div>
-            </div><!--/ card-->
+            </div>
+            <!--/ card-->
         @endforeach
     </div>
 

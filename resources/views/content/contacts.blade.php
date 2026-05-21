@@ -7,9 +7,9 @@
     <div class="p-1">
         <div class="border-2 border-nw-blue-700 bg-nw-blue-50 p-4">
             <p>Please contact
-                <a
+                <a class="px-0 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                     onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="mailto:nw.farmplatform@rothamsted.ac.uk">
-                    <u>nw.farmplatform@rothamsted.ac.uk</u>
+                    nw.farmplatform@rothamsted.ac.uk
                 </a>
                 for all NWFP data queries.
             </p>

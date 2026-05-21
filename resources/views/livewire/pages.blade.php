@@ -1,18 +1,18 @@
 <div>
- 
-    <div class="w-100 container mx-auto grid grid-cols-2 gap-8 p-4">
+
+    <div class="grid grid-cols-2 gap-8 p-4">
         <p style="font-size: 16px; text-align:justify" class="text-gray-900">
-            The North Wyke Farm Platform is a pioneering, farm-scale intensively instrumented research facility located in the south west of England, UK. It serves as a UK National Bioscience Research Infrastructure that is funded by BBSRC, and managed by Rothamsted Research, North Wyke. The site, established in 2010, 
+            The North Wyke Farm Platform is a pioneering, farm-scale intensively instrumented research facility located in the south west of England, UK. It serves as a UK National Bioscience Research Infrastructure that is funded by BBSRC, and managed by Rothamsted Research, North Wyke. The site, established in 2010,
             covers ~63 hectares of grassland and arable land, and combines real-world farming with rigorous scientific monitoring.
             <br><br>
-            Its aim is to help develop sustainable agricultural practices that produce healthy food with minimal environmental footprint and to offer data-driven insights and innovations for the future of grassland and arable farming. It is a founding node of the Global Farm Platform Network, and is 
+            Its aim is to help develop sustainable agricultural practices that produce healthy food with minimal environmental footprint and to offer data-driven insights and innovations for the future of grassland and arable farming. It is a founding node of the Global Farm Platform Network, and is
             recognised by the UN Food and Agriculture Organisation as an exemplar research facility.
         </p>
-        <img src="{{ asset('images/nw_buildings2.png') }}" alt="fields" class="shadow-xl rounded-2xl w-48 h-48 border border-gray-200" 
+        <img src="{{ asset('images/nw_buildings2.png') }}" alt="fields" class="shadow-xl rounded-2xl w-48 h-48 border border-gray-200"
      alt="Profile Photo" style="width: 100%; height: 300px;">
-    </div>   
+    </div>
 
-    <div class="w-100 container mx-auto flex flex-row place-content-between content-evenly justify-center gap-x-10">
+    <div class="flex flex-row place-content-between content-evenly justify-center gap-x-10">
 
         @foreach ($pinned as $pin)
             <!-- card -->

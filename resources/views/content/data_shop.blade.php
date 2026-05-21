@@ -30,7 +30,7 @@
                 <br>
                 <p> A collection of non-core and worked-up datasets are available from the Rothamsted Data Repository powered by CKAN.
                     The site has a useful search feature to search for various topics.<br><br>
-                    Note that the <a href="{{ route('publications') }}" class="text-blue-500 hover:underline">Publications page</a> also contains sources of data under the Dataset category.</p>
+                    Note that the <a class="px-0 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"  href="{{ route('publications') }}" class="text-blue-500 hover:underline">Publications page</a> also contains sources of data under the Dataset category.</p>
             </div>
         </div>
         <div class="grid grid-cols-3 gap-4 rounded-top ">

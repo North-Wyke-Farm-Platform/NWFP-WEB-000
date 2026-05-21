@@ -37,7 +37,7 @@
                     <b>We are excited to support projects from a wide range of disciplines. Recent collaborations at
                         Masters and PhD level include:-</b>
 
-                    <div class="w-100 container mx-auto grid grid-cols-2 gap-4 p-3">
+                    <div class="grid grid-cols-2 gap-4 p-3">
                         <div class="p-5">
                             <ul class="space-y-1">
                                 <x-li-arrow>
