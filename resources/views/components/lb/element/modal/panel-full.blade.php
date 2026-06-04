@@ -36,7 +36,7 @@
         x-transition:leave="{{ $transitions[$transition]['leave'] }}"
         x-transition:leave-start="{{ $transitions[$transition]['leave-start'] }}"
         x-transition:leave-end="{{ $transitions[$transition]['leave-end'] }}"
-        class="flex fixed inset-0 z-[99] w-screen h-screen bg-white" style="display:none">
+        class="flex fixed inset-0 z-99 w-screen h-screen bg-white" style="display:none">
         {{ $slot }}
     </div>
 </template>

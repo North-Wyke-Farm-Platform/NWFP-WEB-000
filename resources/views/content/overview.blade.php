@@ -33,11 +33,11 @@
     </div>
     <h2 class="mt-4 h-8 content-center bg-nw-blue-700 px-4 text-lg font-medium text-nw-blue-50">Past, Current, and Planned Treatments</h2>
 
-    <div class="w-100 container mx-auto grid grid-cols-2 gap-8 p-4">
+    <div class="grid grid-cols-2 gap-8 p-4">
     <div class="flex flex-col items-center">
-        <p>The platform consists of three outdoor farming systems, each consisting of five 
-            component catchments over 21 ha. Catchments comprise single or multiple fields, 
-            that are heavily monitored to provide fine resolution data on all inputs, outputs and events. 
+        <p>The platform consists of three outdoor farming systems, each consisting of five
+            component catchments over 21 ha. Catchments comprise single or multiple fields,
+            that are heavily monitored to provide fine resolution data on all inputs, outputs and events.
             The farming systems periodically change, where the timeline of each system's treatment change are as follows:
  <br><br>
             <ul class="space-y-3 p-3">
@@ -56,7 +56,7 @@
             </ul>
         </p>
     </div>
-    <img src="{{ asset('images/20250723_map_Userguide.png') }}" alt="fields" class="shadow-xl rounded-2xl w-48 h-48 border border-gray-200" 
+    <img src="{{ asset('images/20250723_map_Userguide.png') }}" alt="fields" class="shadow-xl rounded-2xl w-48 h-48 border border-gray-200"
      alt="Profile Photo" style="width: 100%; height: 800px;">
     </div>
 

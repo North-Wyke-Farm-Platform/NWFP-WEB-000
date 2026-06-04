@@ -7,12 +7,12 @@
     <h2 class="h-16 content-center bg-nw-blue-700 px-4 text-center text-2xl font-medium text-nw-blue-50">
         Research Projects</h2>
 
-    <div class="flex flex-col content-center items-center pb-10 text-center">
+    <div class=" content-center items-center pb-10 text-center">
         <div class="p-10">
             <b>We are excited to support projects from a wide range of disciplines. Recent collaborations
                 include:-</b>
 
-            <div class="w-100 container mx-auto grid grid-cols-2 gap-4 p-3">
+            <div class="mx-auto grid grid-cols-2 gap-4 p-3">
                 <div class="p-5">
                     <ul class="space-y-1">
                         <x-li-arrow>

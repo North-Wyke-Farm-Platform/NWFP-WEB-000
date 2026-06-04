@@ -1,5 +1,5 @@
 @php
-    $classes = 'absolute top-4 right-4 group cursor-pointer  rounded-lg p-2  text-neutral-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 hover:bg-neutral-100 hover:text-primary-500 transition-all';
+    $classes = 'absolute top-4 right-4 group cursor-pointer  rounded-lg p-2  text-neutral-500 focus:outline-hidden focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 hover:bg-neutral-100 hover:text-primary-500 transition-all';
 @endphp
 
 <div class="absolute top-4 right-4 group">

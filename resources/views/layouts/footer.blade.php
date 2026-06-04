@@ -49,7 +49,7 @@
             </div>
         </div>
     </div>
-    <div class="border-1 mx-auto border-t border-nw-blue-50 bg-nw-blue-900 p-4 text-nw-blue-50 sm:p-6 lg:p-4">
+    <div class="border mx-auto border-t border-nw-blue-50 bg-nw-blue-900 p-4 text-nw-blue-50 sm:p-6 lg:p-4">
 
         <div class="flex justify-between">
 
@@ -62,7 +62,7 @@
     @if (env('FILAMENT_USE'))
 
 
-    <div class="border-1 mx-auto border-t border-nw-blue-50 bg-nw-blue-900 p-4 text-nw-blue-50 sm:p-6 lg:p-8 print:hidden">
+    <div class="border mx-auto border-t border-nw-blue-50 bg-nw-blue-900 p-4 text-nw-blue-50 sm:p-6 lg:p-8 print:hidden">
         <div class="flex justify-end">
 
             @if (Route::has('login'))

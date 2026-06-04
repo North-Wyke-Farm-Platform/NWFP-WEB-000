@@ -19,7 +19,7 @@
         </p>
         <div class="container mx-auto flex flex-col items-center px-10 py-10 md:flex-row">
             <div
-                class="mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24">
+                class="mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:grow lg:pr-24">
 
                 <p>
                     Under the guidance of our experts, you will have access to our data and APIs (Application
@@ -42,7 +42,7 @@
 
             </div>
             <div class="w-5/6 md:w-1/2 lg:w-full lg:max-w-lg">
-                <img class="mx-auto rounded object-cover object-center" src="/images/banner-nature-4.jpg" alt="nature">
+                <img class="mx-auto rounded-sm object-cover object-center" src="/images/banner-nature-4.jpg" alt="nature">
                 <ul class="mt-3 space-y-3">
                     <x-li-arrow><b>Start Date - Time: </b> Saturday 13th September 2025, 12pm </x-li-arrow>
                     <x-li-arrow><b>End Date - Time: </b> Sunday 14th September 2025, 5:30pm </x-li-arrow>

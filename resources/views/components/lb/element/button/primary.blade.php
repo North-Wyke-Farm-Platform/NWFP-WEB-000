@@ -1,7 +1,7 @@
 @props([
     'disabled' => false,
     'size' => 'md',
-    'rounded' => 'lg',
+    'rounded-sm' => 'lg',
 ])
 
 @php

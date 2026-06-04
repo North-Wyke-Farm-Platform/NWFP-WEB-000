@@ -1,6 +1,6 @@
 @props([
     'width' => 'lg',
-    'rounded' => 'lg',
+    'rounded-sm' => 'lg',
     'custom' => '',
     'modal',
 ])
@@ -8,13 +8,13 @@
 @php
     $maxWidthClass = ' sm:max-w-' . $width;
 
-    $roundedClass = ' sm:rounded-' . $rounded;
+    $roundedClass = ' sm:rounded-sm';
     $classes = ' ' . $maxWidthClass . $roundedClass . ' ' . $custom;
 @endphp
 
 <template x-teleport="body">
     <div x-show="{{ $modal ?? 'modalOpen' }}"
-        class="fixed top-0 left-0 z-[99] flex items-center justify-center w-screen h-screen" style="display:none">
+        class="fixed top-0 left-0 z-99 flex items-center justify-center w-screen h-screen" style="display:none">
         <div x-show="{{ $modal ?? 'modalOpen' }}" x-transition:enter="ease-out duration-300"
             x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
             x-transition:leave="ease-in duration-300" x-transition:leave-start="opacity-100"

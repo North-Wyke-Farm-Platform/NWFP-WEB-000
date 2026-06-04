@@ -89,17 +89,23 @@
     </h2>
     <div class="p-3">
         <p>When using the Farm Platform Data Portal for the first time, to gain a good familiarisation to the
-            North Wyke Farm Platform and the data, it is useful to read:</p><br>
+            North Wyke Farm Platform and the data, it is useful to read:
+
+        The dedicated   <a class=" text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
+                    href="https://repository.rothamsted.ac.uk/item/98y1x/the-north-wyke-farm-platform-design-establishment-and-development"
+                    onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no');
+                    return false;">  &nbsp; User Guides  &nbsp; </a> contain background information on the design, establishment and continued development of the Farm Platform.
+</p><br>
 
         <ul class="space-y-3">
             <x-li-dot class="bg-nw-blue-700">
-                The background information on the design, establishment and continued development of the Farm Platform provided in the dedicated<a
-                    class="px-1 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
+                <a class=" text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                     href="https://repository.rothamsted.ac.uk/item/98y1x/the-north-wyke-farm-platform-design-establishment-and-development"
-                    onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;">
-                    <span class="font-semibold">User Guide</span>.
-                </a>
-            </x-li-dot>
+                    onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no');
+                    return false;">User Guides  &nbsp; </a>:  contain background information on the design, establishment and continued development of the Farm Platform.
+
+</x-li-dot>
+
             <x-li-dot class="bg-nw-blue-700">Supporting documents</x-li-dot>
             <ul class="m-5 space-y-3">
                 <x-li-arrow><a
@@ -114,10 +120,10 @@
                         Assessment</a></x-li-arrow>
             </ul>
 
-            <x-li-dot class="bg-nw-blue-700"> Learn about the range of parameters measured, and data collection methods
-                for all the datasets available on the portal on the<a
+            <x-li-dot class="bg-nw-blue-700"><a
                     class="px-1 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
-                    href="{{ route('nw-guides') }}"><span class="font-semibold">User Guides</span></a>page such as:
+                    href="{{ route('nw-guides') }}"><span class="font-semibold">User Guides</span></a>: also have the range of parameters measured, and data collection methods
+                for all the datasets available on the portal on the page such as:</a>
             </x-li-dot>
             <ul class="m-5 space-y-3">
 
@@ -186,12 +192,12 @@
             explanatory information may be absorbed and understood better when you have familiarised
             yourself with the datasets available.</p>
             <p>Please contact
-                <a
+                <a class="px-0 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                     onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="mailto:nw.farmplatform@rothamsted.ac.uk">
-                    <u>nw.farmplatform@rothamsted.ac.uk</u>
-                </a> or <a
+                    nw.farmplatform@rothamsted.ac.uk
+                </a> or <a class="px-0 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"
                     onclick="window.open(this.href, '', 'resizable=yes,status=no,location=yes,toolbar=no,menubar=yes,fullscreen=no,scrollbars=yes,dependent=no'); return false;"href="mailto:paul.harris@rothamsted.ac.uk">
-                    <u>paul.harris@rothamsted.ac.uk</u>
+                    paul.harris@rothamsted.ac.uk
                 </a>
                 for all NWFP data queries.
 
