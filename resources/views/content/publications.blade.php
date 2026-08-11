@@ -5,6 +5,6 @@
         </h2>
     </x-slot>
 
-    @livewire('publications', ['keyref' => "", 'hasButtons'=>"YES"])
+    @livewire('publications', ['keyref' => "", 'hasButtons'=>"YES", 'hasSearch'=>"YES", 'order'=>"ASC"])
 
 </x-guest-layout>

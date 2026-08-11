@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use Illuminate\Support\Collection;
 use Livewire\Component;
 use Illuminate\Database\Eloquent\Builder;
 use App\Models\Publication;
@@ -10,29 +11,30 @@ class Publications extends Component
 {
 
 
-    public $keyref;
-    public $hasButtons;
-    public $hasSearch;
-    public $order = 'ASC';
+    public string $keyref;
+    public string $hasButtons;
+    public string $hasSearch;
+    public string $order = 'ASC';
     public string $searchRef = "";
 
     public string $searchAuth = "";
     public $guides = 1;
-    public $years;
-    public $publications;
+    public Collection $years;
+    public Collection $publications;
     public $types= [
         'rf1'=>'Journal Article',
         'rf2'=>'Conference',
         'rf4'=>'Dataset',
         'rf5'=>'Report',
         'rf7'=>'Computer Program',
-        'rf9'=>'RPubs'
+        'rf9'=>'RPubs',
+        'rf10'  =>'Book', // because we will look for 'Book' in the ref_type, the smaller of Book or Book Chapter, we will use the ref_type to filter for books and book chapters
     ];
-    public $ref_types;
+    public Collection $ref_types;
 
-    public $data = array();
-    public $view = 'livewire.publications';
-    public $style; // a variable to choose the kind of display
+    public array$data = array();
+    public string $view = 'livewire.publications';
+    //`public $style; // a variable to choose the kind of display
 
 
     public function mount() {
@@ -60,7 +62,7 @@ class Publications extends Component
             'types' => $this->types,
             'ref_types' => $this->ref_types,
             'hasButton' => $this->hasButtons,
-            'hasSearch' => $this->hasButtons,
+            'hasSearch' => $this->hasSearch,
 
         ];
 
