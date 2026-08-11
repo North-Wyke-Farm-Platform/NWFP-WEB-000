@@ -29,7 +29,7 @@
                     <strong>3. Non-core and Worked-up Datasets</strong></h2>
                 <br>
                 <p> A collection of non-core and worked-up datasets are available from the Rothamsted Data Repository.
-                    To filter for those relevant to the Farm Platform, use the advanced search and include 'NWFP data' in the keyword search<br><br>
+                    <br><br>
                     Note that the <a class="px-0 text-nw-blue-700 visited:text-amber-900 hover:text-orange-700 active:text-orange-900"  href="{{ route('publications') }}" class="text-blue-500 hover:underline">Publications page</a> also contains sources of data under the Dataset category.</p>
             </div>
         </div>
@@ -48,7 +48,7 @@
                 </div>
                 <div>
                     <p class="px-0 pt-5">
-                        <x-button-datalinks href="https://repository.rothamsted.ac.uk/cgi/tabbed_search/archive/advanced?refereed=EITHER&dataset=archive&screen=Material%3A%3ATabbedSearch&type=data_collection&keywords=NWFP%20data" target="_blank" class="btn-primary">
+                        <x-button-datalinks href="https://repository.rothamsted.ac.uk/cgi/tabbed_search/archive/advanced?refereed=EITHER&dataset=archive&screen=Material%3A%3ATabbedSearch&keywords=NWFP%20data" target="_blank" class="btn-primary">
                             Click to Access Rothamsted Repository
                         </x-button-datalinks>
                 </div>
