@@ -26,3 +26,5 @@ composer_8.1.lock
 composer_8.2.lock
 composer_8.3.lock
 composer.audit.*
+npm.audit.*
+
