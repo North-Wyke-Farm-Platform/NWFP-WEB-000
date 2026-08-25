@@ -7,7 +7,7 @@
 
 
 
-    @livewire('publications', ['keyref' => "KeyRefUserGuide"])
+    @livewire('publications', ['keyref' => "KeyRefUserGuide", 'hasButtons'=>"NO", 'hasSearch'=>"YES", 'order'=>"ASC", 'hasYears'=>"NO"])
 
 
 </x-guest-layout>
